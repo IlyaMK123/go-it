@@ -1,0 +1,35 @@
+.workers {
+  margin-top: 94px;
+
+  background-color: $workers-back;
+  text-align: center;
+  &__h2 {
+    margin-bottom: 50px;
+
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    box-shadow: 1px 1px 5px 0px;
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+
+  &__img {
+    margin-bottom: 30px;
+  }
+
+  &__name {
+    margin-bottom: 10px;
+  }
+
+  &__type {
+    margin-bottom: 30px;
+  }
+}

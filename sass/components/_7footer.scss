@@ -1,0 +1,41 @@
+.footer {
+  margin-top: 94px;
+
+  background-color: $background;
+  &__logo {
+    display: inline-block;
+    margin-bottom: 20px;
+
+    font-size: 26px;
+    font-weight: 600;
+
+    color: $accent-color;
+  }
+  &__span {
+    color: $button-back;
+  }
+}
+.container {
+}
+.address {
+  &__list {
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-bottom: 9px;
+    }
+    &:nth-child(1) {
+      color: $button-back;
+    }
+  }
+
+  &__link {
+    &:nth-child(1) {
+      color: $workers-back;
+    }
+    &:nth-child(2) {
+      color: $primary-text-color;
+    }
+  }
+}
